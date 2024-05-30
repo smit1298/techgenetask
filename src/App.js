@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Footer from './components/Footer/Footer';
+import CartItems from "./pages/CartItems/CartItems";
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import StickyCategoryModal from './StickyCategoryModal/StickyCategoryModal';
 import Nav from "./components/Navbar/CategoryNav"
