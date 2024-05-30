@@ -1,0 +1,212 @@
+.hamburger-menu {
+  display: none;
+}
+
+.search-mobile {
+  display: none;
+}
+
+#dropdown-basic__ {
+  background-color: #fff;
+  outline: none;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #000000;
+}
+
+.btn-success {
+  background-color: #fff;
+  outline: none;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #000000;
+}
+
+.btn-success:hover {
+  background-color: #fff;
+  outline: none;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #000000;
+}
+
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  background-color: #fff;
+  outline: none;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #000000;
+}
+
+.customer-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #000000;
+}
+
+.logout {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #fa2323;
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+  }
+
+  .messages-num {
+    position: relative;
+    left: 75%;
+  }
+  .cart-items-num {
+    left: 75%;
+  }
+
+  .form-control::placeholder {
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .image-sizing-mobile {
+    width: 30vw;
+  }
+/* 
+  .hide-search-bar {
+    display: none;
+  } */
+
+  .heart-icon-nav {
+    width: 20vw;
+  }
+
+  /* .search-icon {
+    position: absolute;
+    top: 58px;
+    z-index: 10;
+  } */
+
+  .has-search {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .form-control {
+    width: 100%;
+    margin: 0 auto;
+    height: 30px;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+  .balace {
+    display: none;
+  }
+
+  .user-icon-container {
+    display: none;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 912px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+  }
+
+  .messages-num {
+    position: relative;
+    left: 75%;
+  }
+  .cart-items-num {
+    left: 75%;
+  }
+
+  .form-control::placeholder {
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* .search-mobile {
+    display: block;
+  } */
+
+  .image-sizing-mobile {
+    width: 30vw;
+  }
+
+  /* .hide-search-bar {
+    display: none;
+  } */
+
+  .heart-icon-nav {
+    width: 20vw;
+  }
+
+  /* .search-icon {
+    position: absolute;
+    top: 58px;
+    z-index: 10;
+  } */
+
+  .has-search {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .form-control {
+    width: 100%;
+    margin: 0 auto;
+    height: 30px;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+  .balace {
+    display: none;
+  }
+
+  .user-icon-container {
+    display: none;
+  }
+}
