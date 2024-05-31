@@ -5,6 +5,8 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import StickyCategoryModal from './StickyCategoryModal/StickyCategoryModal';
 import Nav from "./components/Navbar/CategoryNav"
 import  {ShopMain} from "../src/pages/shop/ShopMain/ShopMain"
+import CartItems from "./pages/CartItems/CartItems";
+
 
 function App() {
   return (

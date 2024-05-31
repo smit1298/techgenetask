@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 import logo from "../../assets/images/logo.png";
 import "./CategoryNav.css";
 import Dropdown from "react-bootstrap/Dropdown";
-import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import { MobileModalCancel } from "../../assets/icons";
 import {
   SearchIcon,
